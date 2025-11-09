@@ -32,15 +32,15 @@
   --fw-bold: 700;
 
   /* Font Sizes */
-  --fs-1: 40px; /* headline */
-  --fs-2: 16px; /* paragraph */
-  --fs-3: 12px; /* small text */
+  --fs-1: 56px; /* Text Preset 1 (Headline) */
+  --fs-1-mobile: 40px; /* Text Preset 1 (Mobile) */
+  --fs-2: 16px; /* Text Preset 2 (Body) */
+  --fs-3: 12px; /* Text Preset 3 (Small text) */
 
   /* Line Heights */
   --lh-tight: 100%;
   --lh-normal: 150%;
 
   /* Letter Spacing */
-  --ls-tight: -0.5px;
   --ls-normal: 0;
 }
