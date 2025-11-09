@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  background-color: var(--blue-700);
+}
+
+.newsletter-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: var(--spacing-400);
+  gap: var(--spacing-800);
+  background-color: var(--white);
+  border-radius: 36px;
+
+  width: 904px;
+  height: 641px;
+}
+
+.img-news {
+  background-color: green;
+  border-radius: var(--spacing-200);
+  grid-area: 1 / 2 / 4 / 3;
+}
+.title {
+  background-color: red;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.bullets {
+  background-color: yellow;
+  grid-area: 2 / 1 / 3 / 2;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+}
+.bullets p {
+  margin: 0;
+}
+
+.benefits {
+  list-style: none;
+}
+.v-lettes {
+    display: flex;
+    flex-direction: row;
+    
+}
+.form {
+  background-color: blue;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.news-side {
+  gap: var(--spacing-400);
+}
