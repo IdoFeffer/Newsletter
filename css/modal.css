@@ -1,0 +1,45 @@
+.modal[hidden] {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+}
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal-dialog {
+  position: relative;
+  background: #fff;
+  border-radius: 36px;
+  max-width: 504px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.modal-inside {
+  padding: var(--spacing-800);
+}
+
+.modal-inside h2 {
+  margin: var(--spacing-400) 0;
+  font-size: var(--fs-1);
+}
+.modal-inside button {
+  margin-top: var(--spacing-400);
+}
+
+.modal-p {
+  color: var(--blue-800);
+}
+
+.modal-email {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-2);
+  line-height: var(--lh-normal);
+}
