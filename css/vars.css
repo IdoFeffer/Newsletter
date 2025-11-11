@@ -8,6 +8,7 @@
   --blue-700: #36384d;
 
   --red: #ff6155;
+  --red-100: #FFE7E6;
 
   /* Gradients */
   --gradient-start: #ff6a3a;
@@ -32,10 +33,10 @@
   --fw-bold: 700;
 
   /* Font Sizes */
-  --fs-1: 56px; /* Text Preset 1 (Headline) */
-  --fs-1-mobile: 40px; /* Text Preset 1 (Mobile) */
-  --fs-2: 16px; /* Text Preset 2 (Body) */
-  --fs-3: 12px; /* Text Preset 3 (Small text) */
+  --fs-1: 56px; 
+  --fs-1-mobile: 40px; 
+  --fs-2: 16px;
+  --fs-3: 12px; 
 
   /* Line Heights */
   --lh-tight: 100%;
